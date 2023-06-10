@@ -30,4 +30,4 @@ titoloE.innerHTML = 'Titolo: ' + titolo;
 autoreE.innerHTML = 'Autore: ' + autore;
 stringaE.innerHTML = 'Stringa: ' + stringa;
 
-resultE.innerHTML= titolo.concat(autore).toLocaleLowerCase().match(stringa);
+resultE.innerHTML = titolo.concat(autore).toLocaleLowerCase().includes(stringa);
